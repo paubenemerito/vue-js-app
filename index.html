@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-color: #E5D7C4;
+      }
+      h1 {
+        font-family: "Lucida Console", "Courier New", monospace;
+        color: #D67543;
+        text-shadow: 2px 2px #661414;
+        margin-left: 80px;
+      }
+
+      #app {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+        border: 15px solid #EEEDE8;
+      }
+    </style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue App</title>
+    <script src="https://unpkg.com/vue@3.0.2"></script>
+  </head>
+
+  <body>
+    <h1>Basic Vue App</h1> 
+
+    <div id="app">
+      <p>{{ title }} - {{ author }} - {{ age }}</p>
+    </div>
+
+    <script src="app.js"></script> 
+  </body>
+</html>
