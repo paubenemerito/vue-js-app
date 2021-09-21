@@ -1,0 +1,34 @@
+body {
+  background-color: #E5D7C4;
+}
+h1 {
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: #D67543;
+  text-shadow: 2px 2px #661414;
+  margin-left: 80px;
+}
+
+#app {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+  border: 15px solid #EEEDE8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+  height: 50%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
